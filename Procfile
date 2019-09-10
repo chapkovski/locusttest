@@ -1,1 +1,1 @@
-worker: locust --host=$TESTHOST:$PORT --locustfile locustrunner.py
+worker: locust --host=$TESTHOST:$TESTPORT --locustfile locustrunner.py
