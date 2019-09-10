@@ -1,5 +1,4 @@
 from locust import HttpLocust, TaskSet, task
-import json
 
 
 class UserBehavior(TaskSet):
@@ -8,10 +7,12 @@ class UserBehavior(TaskSet):
     def list_post(self):
         headers = {'content-type': 'application/json', 'Accept-Encoding': 'gzip'}
         a = self.client.post("/model/parse",
-                        headers=headers,
-                        name="access nlu",
-                         data='{"text":"hello"}')
+                             headers=headers,
+                             name="access nlu",
+                             data='{"text":"hello"}')
 
         print(a.status_code)
+
+
 class WebsiteUser(HttpLocust):
     task_set = UserBehavior
