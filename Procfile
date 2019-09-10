@@ -1,1 +1,1 @@
-worker: locust --host=$TESTHOST:$TESTPORT --locustfile locustrunner.py --loglevel=DEBUG
+worker: locust --host=http://206.189.52.11:5005 --locustfile locustrunner.py --loglevel=DEBUG
