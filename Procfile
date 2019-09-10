@@ -1,1 +1,2 @@
-worker: locust --host=http://206.189.52.11:5005 --locustfile locustrunner.py --loglevel=DEBUG
+web:  locust --master --locustfile locustrunner.py  --host=http://206.189.52.11:5005
+worker: locust --locustfile locustrunner.py  --slave
