@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14daa5a3-25ba-4cc5-9983-5c0817811f5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-    </list>
+    <list default="true" id="14daa5a3-25ba-4cc5-9983-5c0817811f5e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,19 +127,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568140199484</updated>
-      <workItem from="1568140201603" duration="4108000" />
+      <workItem from="1568140201603" duration="4409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4108000" />
+    <option name="totallyTimeSpent" value="4409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5862069" visible="true" weight="0.42972535" />
-      <window_info id="Structure" order="1" sideWeight="0.41379312" side_tool="true" visible="true" weight="0.42972535" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5819209" visible="true" weight="0.42972535" />
+      <window_info id="Structure" order="1" sideWeight="0.4180791" side_tool="true" visible="true" weight="0.42972535" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -154,7 +151,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.43137255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7107843" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3293348" />
       <window_info anchor="right" id="R Graphics" />
