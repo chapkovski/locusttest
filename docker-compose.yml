@@ -1,0 +1,27 @@
+version: "3.7"
+
+x-common: &common
+  build: .
+  image: chapkovski/locust
+  volumes:
+    - ${PWD}/locustrunner.py:/tests/locustrunner.py
+
+services:
+  my-master:
+    <<: *common
+    ports:
+      - "80:8089"
+    env_file:
+      - .env
+    environment:
+      LOCUST_MODE: master
+
+  my-slave:
+    <<: *common
+    env_file:
+      - .env
+    depends_on:
+      - my-master
+    environment:
+      LOCUST_MODE: slave
+      LOCUST_MASTER_HOST: my-master
